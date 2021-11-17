@@ -1,12 +1,17 @@
 ###############################################################################
-# Complete Teams adminy script
+# Complete Teams admin script
 # Assign & Unassign Phonenumbers for Users & ressource Accs
-# 22.08.2021 Initial Version - Roman Padrun
+# 22.08.2021 Initial Version - Roman Padrun aka. GODVADR
 ###############################################################################
 # Requires -Modules MicrosoftTeams
+# If Teams Module is not installed 
+
+#Install-Module MicrosoftTeams
+
+#Import Teams Module
 Import-Module MicrosoftTeams
 
-#$cred = Get-Credential
+#Connect to MicrosoftTeams
 Connect-MicrosoftTeams
 
 #Function menu to choose the function u want
