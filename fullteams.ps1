@@ -13,7 +13,7 @@ Connect-MicrosoftTeams
 function Show-Menu
 {
     param (
-        [string]$Title = "Teams Functions by isolutions"
+        [string]$Title = "Teams Functions by GODVADR"
     )
     Clear-Host
     Write-Host "================= $Title ================="
@@ -38,7 +38,7 @@ do
                 Clear-Host
                 Write-Host "Please enter the Username and Phonenumber to assign and specify the Teams Policy"
                 Write-Host "If Swisscom: SwisscomET4T" -ForegroundColor Blue
-                Write-Host "If Sunrise: SunriseUnlimited" -ForegroundColor Red
+                Write-Host "If Sunrise: SunriseUnlimited" -ForegroundColor Yellow
 
                 $username =  read-Host "Username"
                 $phonenumber = Read-Host "Phonenumber (Example: +413424232)"
